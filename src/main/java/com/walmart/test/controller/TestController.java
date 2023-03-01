@@ -25,7 +25,7 @@ public class TestController
 {
 
 	
-	@PostMapping(path="/prueba", consumes = MediaType.APPLICATION_JSON_VALUE)
+	@PostMapping(path="/searchArray", consumes = MediaType.APPLICATION_JSON_VALUE)
 	public JSONObject cadenas2(@RequestBody Cadenas cads) 
 	{
 		
