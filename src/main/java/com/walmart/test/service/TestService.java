@@ -14,7 +14,6 @@ public class TestService
 	public JSONObject comparaArrs(String [] arr1, String[] arr2)
 	{
 		
-		//TestController resTC = new TestController();
 		JSONObject json = new JSONObject();
 		
 		if (arr1.length>=arr2.length) 
